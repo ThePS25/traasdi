@@ -1,0 +1,7 @@
+.fullscreen-bg {
+    background-image: src('Images/homepagepic.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  

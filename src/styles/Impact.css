@@ -1,0 +1,45 @@
+.impact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-color: blue; */
+  }
+  
+  .impact-card {
+    max-width: 390px;
+    display: flex;
+    margin: 20px;
+    transition: transform 0.3s;
+     background-color: #765827 !important ;  /* Customize the background color of the card #8a6340dc*/
+     border-radius: 20px;/* Add border radius for a rounded card */
+     padding: 10px;/* Add padding to the card content */
+  }
+  
+  .impact-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .impact-name {
+    color: #F5E8B7; /* Customize the color of the name */
+    /* text-decoration-color: beige; */
+    /* background-color: brown ; */
+    font-size: 2rem; /* Adjust the font size of the name */
+    
+    font-weight: 20000 !important; /* Add font weight to the name */
+  }
+  
+  .impact-description {
+    /* background-color: brown; */
+    color: #C1D8C3 !important; /* Customize the color of the details */
+    font-size: 1rem; /* Adjust the font size of the details */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .impact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

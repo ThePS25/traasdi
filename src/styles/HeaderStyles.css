@@ -1,0 +1,38 @@
+.navigation-menu li {
+    display: inline;
+    padding: 10px;
+  }
+  
+  .navigation-menu li a {
+    text-decoration: none;
+    color: #FCE09B;
+    font-family: 'Samarkan', cursive; 
+    /* Add the font-family property */
+    font-size: 20px; 
+    /* Add the font-size property */
+  }
+  
+  .navigation-menu li a:hover {
+    color: #B5CB99;
+  }
+
+  .mobile-navigation-menu {
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Set the flex-direction to column to align items vertically */
+  }
+  
+  .mobile-navigation-menu li {
+    padding: 10px;
+  }
+  
+  .mobile-navigation-menu li a {
+    text-decoration: none;
+    color: #FCE09B;
+    font-family: 'Samarkan', cursive;
+    font-size: 20px;
+  }
+  
+  .mobile-navigation-menu li a:hover {
+    color: #B5CB99;
+  }

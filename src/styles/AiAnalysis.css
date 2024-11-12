@@ -1,0 +1,87 @@
+/* AiAnalysis.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px 30px 20px;
+    margin-bottom: 20px; /* Add margin to the bottom of the container */
+    box-sizing: border-box; /* Include padding and border in the total width and height */
+  }
+  
+  .header {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .selectContainer {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    margin-right: 10px;
+  }
+  
+  .select {
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  .sentimentContainer {
+    margin-bottom: 20px;
+  }
+  
+  .sentimentList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sentimentItem {
+    margin-bottom: 5px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 45px; /* Add margin to the bottom of the card container */
+    /* margin-top: 45px; */
+  }
+  
+  .card {
+    height: 156px; /* Set your desired fixed height */
+    width: 760px; /* Set your desired fixed width */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 3.5px;
+    margin-top: 25px;
+    box-sizing: border-box; /* Include padding and border in the total width */
+    background-color: #862B0D;
+}
+
+  
+  
+  .cardHeader {
+    font-size: 1.5em;
+    color: #FCE09B;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .cardText {
+    margin-bottom: 15px;
+    color: #FCE09B;
+    /* font-family: 'Edu TAS Beginner', cursive; */
+    font-family: 'Roboto', sans-serif;
+/* font-family: 'Exo 2', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .impact-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
